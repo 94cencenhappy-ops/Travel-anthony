@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://i.imgur.com/5aJ3MfP.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #4B3832;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    background: rgba(245, 222, 179, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 0 25px #00000055;
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+button {
+    background-color: #8B4513;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    background-color: #A0522D;
+    transform: scale(1.05);
+}
+.question {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+.option {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+}
+.score {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
